@@ -1,7 +1,13 @@
-
+import Header from "../../components/Header/Header"
+import Footer from "../../components/Footer/Footer"
+import PopularPics from "../../components/PopularPics/PopularPics"
 
 export default  function PictureGallery () {
     return (
-        <div>Gallery Page</div>
+        <>
+       <Header />
+       <PopularPics />
+       <Footer />
+       </>
     )
 }
